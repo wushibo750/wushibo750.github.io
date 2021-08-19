@@ -1,0 +1,129 @@
+body{
+    background:rgb(41,36, 33) ;
+    color:red;
+    line-height:1.6;
+}
+a{
+    text-decoration:none;
+}
+a,body{
+    color:#777;
+}
+.side-bar{
+    float: left;
+    width:20%;
+    position:fixed;
+}
+.side-bar > * {
+    padding:10px 15px;
+}
+
+.main{
+    float: right;
+    width:80%;
+    color:#555;
+}
+
+.logo{
+    padding: 10px 20px;
+    font-size: 35px;
+    display: inline-block;
+    border: 6px solid #555;
+    margin-bottom:10px;
+    line-height:1;
+}
+.item1{
+    display:block;
+    padding:1px;
+    color:#AAA;
+    transition:color 400ms;
+
+}
+
+.item1:hover{
+    color:#000;
+}
+.nav{
+    font-weight:800;
+}
+.article-list{
+    margin-right:30%;
+    background: #fcfdf8;
+    padding:20px 30px;
+}
+.title{
+    font-size:22px;
+    font-weight:700;
+}
+.status{
+    font-size:12px;
+    color:#ccc;
+    /* margin:10px 0px; */
+}
+.item{
+    margin-bottom:30px;
+    background: #fff;
+    border: 10px solid #fff;
+    box-shadow: 0 3px 3px 2px #999;
+}
+.item > * {
+    margin: 10px 0px;
+}
+.a1{
+	margin-left: 250px;
+	border-radius: 20%;
+	border: 3px solid #777;
+	font-size: 30px;
+
+}
+.a2{
+	position: fixed;
+	height: 30px;
+	width: 20px;
+	top: 530px;
+	right: 45px;
+	font-size: 20px;
+
+}
+.a3{
+    position: absolute;
+    width:200px;
+    height: 75px;
+    right: 30px;
+    top:0px;
+    border:5px solid #555;
+
+
+}
+
+.a4{
+    position: absolute;
+    width:200px;
+    height:230px ;
+    right:30px;
+    top:130px;
+    border: 3px dashed #555;
+    padding:0px;
+    margin:0px;
+    
+}
+.a5{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    right: -7px;
+    top: 452px;
+   font-size: 27px;
+    padding:0px;
+    margin:0px;
+}
+.a6{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    right: -7px;
+    top: 350px;
+   font-size: 27px;
+    padding:0px;
+    margin:0px;
+}

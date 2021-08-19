@@ -1,0 +1,35 @@
+body{
+    background:rgb(192,192,192) ;
+  
+    
+}
+.me{
+     padding:0px;
+	 font-size:larger;
+	 font-weight: 30px;
+}
+.mr-root{
+    width:365px;
+    height: 375px;
+    margin:20px auto;
+    border:1px solid ;
+}
+form{
+    padding:65px 50px;
+
+}
+label{
+    color:#fff;
+    display:block;
+    padding-top:10px;
+    position:relative;
+
+}
+label input{
+    height:25px;
+    width:200px;
+    position:absolute;
+}
+label img{
+    height:28px;
+}
